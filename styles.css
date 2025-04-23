@@ -13,7 +13,8 @@ body {
 
 #grid-container {
     margin: 10px auto;
-    width: 960px;
+    width: 100%;
+    max-width: 960px;
     padding: 10px;
     border: 3px solid rgb(48, 48, 110);
     display: flex;
@@ -29,13 +30,14 @@ body {
     padding: 5px;
     border: 3px solid red;
     display: flex;
+    
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
 .div-column {
-    width: 50px;
+    flex: 1;
     height: 50px;
     border: 1px solid blue;
 }
