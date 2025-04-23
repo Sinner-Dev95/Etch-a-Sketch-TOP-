@@ -19,5 +19,13 @@ for(let i = 1 ; i<=16 ; i++){
 }
 
 
-//evento per gestire hover su elemento div-column
+//evento per gestire hover su elemento container (event delegation)
+
+container.addEventListener('mouseover', (e)=>{
+    if (e.target.classList.contains('div-column')){
+ e.target.style.backgroundColor = 'black';}
+    
+})
+
+
 
