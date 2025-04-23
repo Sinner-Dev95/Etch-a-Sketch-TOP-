@@ -19,6 +19,7 @@ body {
 /*TOGGLE BTN*/
 
 .toggle-btn {
+    width: 100px;
     padding: 10px 20px;
     border: 3px solid rgb(48, 48, 110);
     border-radius: 5px;
@@ -37,6 +38,28 @@ body {
 
 .toggle-btn:active {
     background-color: #6d79ae;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+}
+
+.size-btn {
+    width: 100px;
+    padding: 10px 20px;
+    border: 3px solid rgb(48, 48, 110);
+    border-radius: 5px;
+    color: #fff;
+    background-color: #8d99ae;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;}
+
+.size-btn:hover {
+    background-color: #7d89ae;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.size-btn:active{background-color: #6d79ae;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transform: translateY(1px);
 }
